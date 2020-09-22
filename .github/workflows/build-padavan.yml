@@ -38,7 +38,7 @@ jobs:
         ./build_toolchain
     - name: Build Firmware
       env:
-        TNAME: XY-C1
+        TNAME: OYE-001
       run: |
         cd /opt/rt-n56u/trunk
         sudo ./clear_tree
