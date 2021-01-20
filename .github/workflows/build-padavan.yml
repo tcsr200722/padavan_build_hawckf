@@ -38,7 +38,7 @@ jobs:
         ./build_toolchain
     - name: Build Firmware
       env:
-        TNAME: OYE-001
+        TNAME: MI-3c
       run: |
         cd /opt/rt-n56u/trunk
         sudo ./clear_tree
